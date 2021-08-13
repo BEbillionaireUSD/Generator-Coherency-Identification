@@ -8,7 +8,7 @@ python IAE.py
 
 **使用本代码请引用**：刘丰瑞,李柏橦.基于概率分布联合训练时空自编码器的同调发电机在线辨识及其可解释性[J/OL].中国电机工程学报:1-16[2021-08-13].
 
-由于时间关系暂时没有写注释，我们会尽快把坑填上...
+由于时间关系暂时没有写注释，我们会尽快把坑填上...遇到问题可以直接在issues中留言，我们会第一时间解决
 
 ## Abstract
 This study proposed an improved Auto-Encoder (IAE) scheme for online coherency identification by employing synchro phasor measurements obtained by phasor measurement units (PMUs) in the power system. First, deep neural network layers were constructed for feature extraction and jointly trained with the clustering layer. Second, a distance matrix that presents the similarity index between each pair of generators was calculated according to complexity-invariant distance (CID), considering the characteristic of similar rotor movement trends of coherent generator groups. Third, Gaussian Mixture Model (GMM), improved by KL divergence, was applied to implement probabilistic data-driven clustering and optimize parameters in both feature extraction and clustering processes. The proposed approach was evaluated and validated on the simulation cases of 4-machine 11-bus two-area system and 16-machine 68-bus 5-area system, as well as actual data gathered through China Southern Power Grid (CSG) and Yunnan Power Grid. Also, the high-dimensional features of power angle were visualized and explained via adopting the class activation map and the idea of transfer learning. The results demonstrate that this approach is not only robust under noise and avoid deficiency of pivotal features while mining data, but also realizes prompt and accurate online coherency identification, all the while and the explanatingon of its results’ interpretability without a manually defined number of generator groups or pre-trained off-line labeled data.
