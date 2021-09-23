@@ -1,5 +1,7 @@
 # 用于发电机同调识别
 
+Support python 3.7
+pip install -r requirements.txt
 python IAE.py
 
 **可通过调整MODEL选择不同种类的auto-encoder**
