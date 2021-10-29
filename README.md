@@ -15,4 +15,4 @@ We propose a novel end-to-end generator coherency identification framework, whic
 ## References
 
 https://github.com/FlorentF9/DeepTemporalClustering 和 https://github.com/saeeeeru/dtc-tensorflow
-Tnank FlorentF9 and saeeeeru
+Thank FlorentF9 and saeeeeru
